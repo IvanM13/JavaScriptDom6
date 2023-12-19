@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+body{
+    background-color: #be9da1;
+}
+
+.container {
+    padding: 1%;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.album{
+    width: 200px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.img {
+    height: 300px;
+}
+
+.title{
+    color: rgb(112, 48, 48);
+    margin: 50px;
+}
+
+
+.album__title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(58, 58, 114);
+}
+
+#jazzTemplate{
+    display: none;
+}
